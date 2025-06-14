@@ -39,11 +39,22 @@ def scan_ports (target_ip,start_port,end_port):
 
 
 if __name__ == "__main__":
-
+    default_start = 0
+    default_end = 65565
     target_id= input("Enter the IP address or domain to scan :")
-    start_port = int(input("Enter the starting PORT Number :"))
-    end_port = int(input("Enter The ending PORT Number :"))
-                   
+    start_port = input("Enter the starting PORT Number :")
+    end_port = input("Enter The ending PORT Number :")
+
+    if (start_port == '\n'):
+        start_port = default_start
+    else:
+        start_port = int(start_port)
+
+    if (end_port == '\n'):
+        end_port = default_end
+    else:
+        end_port = int(end_port)
+    
     scan_ports(target_id,start_port,end_port)
 
 
