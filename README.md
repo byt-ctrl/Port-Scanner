@@ -1,8 +1,8 @@
-# Simple Port Scanner 🕵️‍♂️
+# Simple Port Scanner 
 
 A Simple Python script to scan open ports on a target IP or domain.
 
-## How to Use 🚀
+## How to Use 
 
 1. Clone or download the script.
 2. Run the script with Python:
@@ -10,7 +10,7 @@ A Simple Python script to scan open ports on a target IP or domain.
    python port_scanner.py
 3. Enter the target IP/domain and port range.
 
-## Example 🧑‍💻
+## Example 
 ``` python 
 Enter the IP address or domain to scan :8.8.8.8
 Enter the starting PORT Number :50
@@ -24,7 +24,7 @@ PORT 54 is CLOSED
 PORT 55 is CLOSED
 Scan Completed at 2025-04-02 09:15:57.380485
 ```
-## 🤝 Contributing:
+##  Contributing:
 
 If u have any idea's feel free to contribute   
 Fork the repository if needed , make your changes, and submit a pull request.
